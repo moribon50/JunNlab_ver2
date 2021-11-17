@@ -1,0 +1,97 @@
+@media all and (max-width: 1000px){
+    .header-list{
+        display:none;
+    }
+    .ACheader-list{
+        display:block;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-icon{
+        display:block;
+    }
+    .aboutus{
+        margin-top: 30px;
+    }
+    .aboutus-wrapper{
+        height: 950px;
+    }
+    .aboutus-box{
+        width:100%;
+    }
+    .container{
+        width:100%;
+    }
+    .prof-wrapper{
+        height:1320px;
+    }
+    .prof-img img{
+        width:300px;
+        float: left;
+    }
+    .profile{
+        float: left;
+        padding: 20px 0;
+        width: 100%;
+    }
+    .hobby{
+        margin-left: 0;
+    }
+}
+@media (max-width: 670px){
+    .top-wrapper{
+        height: 510px;
+    }
+    .top-wrapper h1{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .intro h1{
+        padding-top: 30px;
+        font-size: 18px;
+    }
+    .aboutus{
+        margin-top: 20px;
+    }
+    .aboutus-box h1{
+        font-size: 24px;
+    }
+    .aboutus-box h2{
+        font-size: 21px;
+        margin-top: 10px;
+    }
+    .aboutus-box p{
+    line-height: 25px;
+    font-size: 15px;
+    margin-top: 5px;
+    }
+    .twitter-timeline{
+        margin: 0;
+    }
+    .prof-wrapper{
+        height: 1220px;
+        width: 100%;
+    }
+    .prof-wrapper h1{
+        font-size: 24px;
+    }
+    .prof-wrapper h2{
+        font-size: 21px;
+    }
+    .profile p{
+        font-size: 15px;
+    }
+    .profile li{
+        font-size: 15px;
+    }
+    .profile img{
+        width: 300px;
+    }
+    .content{
+        margin-left: 20px;
+    }
+    .contact iframe{
+        width: 330px;
+    }
+}

@@ -1,0 +1,219 @@
+  *{
+    box-sizing:border-box;  
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+.clear{
+  clear:left;
+}
+header{
+    height:70px;
+    width:100%;
+    background-color:rgba(30, 50, 70, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+.header-list li {
+    list-style:none;
+}
+.header-list a {
+    text-decoration:none;
+}
+.ACheader-list{
+    border-top: solid;
+    display: none;
+    margin-top: 70px;
+    background-color:rgba(30, 50, 70, 0.9);
+    color: white;
+}
+.ACheader-list li{
+    list-style:none;
+    text-align: center;
+    line-height: 40px
+}
+.ACheader-list a {
+    text-decoration:none;
+    color: white;
+    opacity: 0.7;
+}
+.ACheader-list a:hover{
+    opacity: 1;
+}
+.header-left{
+    float:left;
+}
+.header-left a{
+    text-decoration:none;
+}
+.logo{
+    color:white;
+    margin:20px;
+    font-size:20px;
+    opacity:0.7;
+}
+.logo:hover{
+    opacity:1;
+}
+.logo a{
+    color:white;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 30px;
+    padding: 20px;
+    display:none;
+}
+.menu-icon:hover{
+  background-color:rgba(25, 25, 25, 0.5);
+}
+.header-right {
+    float:right;
+}
+.header-list li{
+    float:left;
+    margin:25px;
+    opacity:0.7;
+}
+.header-list a{
+    color:white;
+    border-style:none;
+}
+.header-list li:hover{
+    opacity:1;
+}
+.top-wrapper {
+    height: 610px;
+    background-image: url("img/hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color:white;
+  }
+.top-wrapper h1 {
+    line-height: 60px;
+    padding-top: 150px;
+    font-size: 50px;
+    letter-spacing: 10px;
+  }
+.intro h1{
+    padding-top: 50px;
+    font-size: 40px;
+}
+.aboutus{
+    margin-top: 40px;
+}
+.aboutus-wrapper{
+    background-size: cover;
+    padding: 20px 40px;
+    width: 100%;
+    background-color: rgba(47, 79, 79, 0.1);
+    height: 520px;
+}
+.aboutus-box{
+    width:50%;
+    color:#004F80;
+    float: left;
+}
+.aboutus-box h1{
+    display: inline-block;
+    border-bottom:solid 4px;
+    font-size: 40px;
+}
+.aboutus-box h2{
+    margin-top:30px;
+    font-size: 25px;
+}
+.aboutus-box p{
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.twitter-timeline{
+    margin: 40px;
+}
+.prof-wrapper{
+    color:#004F80;
+    background-size: cover;
+    background-color: #f7f7f7;
+    height: 610px;
+    padding: 20px 40px;
+    width: 100%;
+}
+.prof-wrapper h1{
+    display: inline-block;
+    border-bottom:solid 4px;
+    font-size: 40px;
+    float: left;
+}
+.prof-wrapper h2{
+    font-size: 30px;
+    clear: both;
+    padding-top: 20px;
+}
+.prof-img img{
+    width:30%;
+    float: right;
+}
+.profile{
+    float: left;
+    padding-top: 20px;
+    width: 35%;
+}
+.profile p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile li{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.profile img{
+    padding-top: 20px;
+    width: 350px;
+    padding-right: 20px;
+}
+.hobby{
+    margin-left: 50px;
+}
+.hobby img{
+    width: 300px;
+}
+footer{
+    background-color:rgb(30, 50, 70);
+    color: white;
+    width: 100%;
+}
+.content{
+    float: left;
+    margin: 40px 50px 0 50px;
+}
+.sns a{
+    font-size: 50px;
+}
+.instagram{
+    color: #D93177;
+    margin-right: 25px;
+}
+.twitter {
+    color: #55acee;
+}
+.website-links li{
+    list-style:none;
+    margin: 10px 0;
+}
+.website-links a{
+    color: white;
+}
+.footer-bottom{
+    padding: 20px 0;
+}
+.copyright-text{
+    margin-left: 20px;
+    opacity: 0.5;
+    font-style: italic;
+}

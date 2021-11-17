@@ -1,0 +1,47 @@
+@media all and (max-width: 1000px){
+    .header-list{
+        display:none;
+    }
+    .ACheader-list{
+        display:block;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-icon{
+        display:block;
+    }
+    .activity-wrapper{
+        height: 800px;
+    }
+    .box{
+        width: 100%;
+    }
+    .img-seminar1 {
+    margin-top: 0;
+    margin-left: 0;
+    }
+}
+@media (max-width: 670px){
+    .activity-wrapper{
+        height: 900px;
+    }
+    .activity-wrapper h1{
+    font-size: 24px;
+}
+    .seminar1 h2{
+    margin-top:10px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+     .img-seminar1 {
+         width: 300px;
+         margin-top: 40px;
+    }
+    .content{
+        margin-left: 20px;
+    }
+    .contact iframe{
+        width: 330px;
+    }
+}

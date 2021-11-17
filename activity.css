@@ -1,0 +1,161 @@
+*{
+    box-sizing:border-box;  
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+.clear{
+    clear: left;
+}
+header{
+    height:70px;
+    width:100%;
+    background-color:rgba(30, 50, 70, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+.header-list li {
+    list-style:none;
+}
+.header-list a {
+    text-decoration:none;
+}
+.ACheader-list{
+    border-top: solid;
+    display: none;
+    margin-top: 70px;
+    background-color:rgba(30, 50, 70, 0.9);
+    color: white;
+}
+.ACheader-list li{
+    list-style:none;
+    text-align: center;
+    line-height: 40px
+}
+.ACheader-list a {
+    text-decoration:none;
+    color: white;
+    opacity: 0.7;
+}
+.ACheader-list a:hover{
+    opacity: 1;
+}
+.header-left{
+    float:left;
+}
+.header-left a{
+    text-decoration:none;
+}
+.logo{
+    color:white;
+    margin:20px;
+    font-size:20px;
+    opacity:0.7;
+}
+.logo:hover{
+    opacity:1;
+}
+.logo a{
+    color:white;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 30px;
+    padding: 20px;
+    display:none;
+}
+.menu-icon:hover{
+  background-color:rgba(25, 25, 25, 0.5);
+}
+.header-right {
+    float:right;
+}
+.header-list li{
+    float:left;
+    margin:25px;
+    opacity:0.7;
+}
+.header-list a{
+    color:white;
+    border-style:none;
+}
+.header-list li:hover{
+    opacity:1;
+}
+.activity-wrapper{
+    padding: 90px 40px 0 40px;
+    margin-bottom: 40px;
+    color:#004F80;
+    background-size: cover;
+    height: 500px
+}
+.activity-wrapper h1{
+    display: inline-block;
+    border-bottom:solid 4px;
+    font-size: 40px;
+}
+.box{
+    width: 50%;
+    float: left;
+}
+.seminar1{
+    margin: 30px 0 10px 0;
+    padding-left: 10px;
+    border: solid 1px;
+}
+.seminar1 h2{
+    font-size: 30px;
+}
+.seminar1 li{
+    margin-left: 20px;
+    line-height: 30px;
+}
+.img-seminar1 {
+    margin-top: 70px;
+    margin-left: 80px;
+    position: relative;
+    width:480px;
+}
+.img-seminar1 img {
+    width:100%;
+    position: absolute;    
+}
+footer{
+    background-color:rgb(30, 50, 70);
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+.content{
+    float: left;
+    margin: 40px 50px 0 50px;
+}
+.sns a{
+    font-size: 50px;
+}
+.instagram{
+    color: #D93177;
+    margin-right: 25px;
+}
+.twitter {
+    color: #55acee;
+}
+.website-links li{
+    list-style:none;
+    margin: 10px 0;
+}
+.website-links a{
+    color: white;
+}
+.footer-bottom{
+    padding: 20px 0;
+}
+.copyright-text{
+    margin-left: 20px;
+    opacity: 0.5;
+    font-style: italic;
+}
